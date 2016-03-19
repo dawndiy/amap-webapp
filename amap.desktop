@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Amap
+Name[zh_CN]=高德地图
+Comment=webapp for amap
+Type=Application
+Icon=amap.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://*.amap.com/* http://m.amap.com %u
+Terminal=false
+X-Ubuntu-Touch=true
+
